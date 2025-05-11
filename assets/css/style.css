@@ -46,6 +46,7 @@
 .header .inner-menu ul li a.active {
   color: var(--color-two);
 }
+
 /* End Header */
 
 /* Section one */
@@ -75,10 +76,11 @@
   color: #fff;
   margin-bottom: 20px;
 }
-/* End Section one */ 
+
+/* End Section one */
 
 /* Section Two */
-.section-two  {
+.section-two {
   margin-top: -220px;
 }
 
@@ -103,7 +105,7 @@
 
 .section-two .inner-box:hover .inner-icon {
   background: var(--color-two);
-} 
+}
 
 .section-two .inner-box .inner-icon img {
   width: 100%;
@@ -121,7 +123,8 @@
   font-size: 13px;
   margin-bottom: 0;
 }
-/* End Section Two */ 
+
+/* End Section Two */
 
 /* Section Three */
 .section-three {
@@ -137,7 +140,7 @@
   height: auto;
 }
 
-.section-three .inner-content .inner-title{
+.section-three .inner-content .inner-title {
   font-size: 28px;
   margin-bottom: 25px;
 }
@@ -147,4 +150,134 @@
   padding-bottom: 80px;
   margin-bottom: 80px;
 }
-/* End Section Three */ 
+
+/* End Section Three */
+
+/* Section Four */
+.section-four {
+  background-image: url(../image/work-process-bg.png);
+  padding: 100px 0;
+  margin-top: 100px;
+}
+
+.section-four .inner-head {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.section-four .inner-head .inner-title {
+  font-size: 28px;
+  color: #fff;
+}
+
+.section-four .inner-head .inner-desc {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.section-four .inner-box {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
+
+.section-four .inner-box:hover {
+  margin-top: -10px;
+}
+
+.section-four .inner-box::before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  background: #fff;
+  width: 100%;
+  opacity: .15;
+  height: 100%;
+  bottom: -10px;
+  left: 0px;
+  right: -20px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.section-four .inner-box img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 25px;
+}
+
+.section-four .inner-box .inner-title {
+  font-size: 17px;
+  color: #1e1e1e;
+}
+
+.section-four .inner-box .inner-desc {
+  font-size: 14px;
+  color: #777777;
+}
+
+/* End Section Four */
+
+/* Section Five */
+.section-five {
+  background: #F1F1F1;  
+  padding: 100px;
+}
+
+.section-five .inner-head {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.section-five .inner-head .inner-title {
+  font-size: 32px;
+  color: #000;
+}
+
+.section-five .inner-head .inner-desc {
+  font-size: 15px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.section-five .inner-box {
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.section-five .inner-box img {
+  margin-bottom: 20px;
+  width: 32px;
+  height: 32px;
+}
+
+.section-five .inner-box .inner-desc {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.section-five .inner-box .inner-list .inner-user {
+      display: block;
+    font-weight: 400;
+    font-size: 17px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    margin-bottom: 5px; 
+}
+
+.section-five .inner-box .inner-list .inner-name {
+  display: block;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ff589e;
+    letter-spacing: 0.25px;
+}
+/* End Section Five */
